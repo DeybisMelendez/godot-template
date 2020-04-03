@@ -8,16 +8,27 @@
 
 config_version=4
 
-_global_script_classes=[  ]
+_global_script_classes=[ {
+"base": "",
+"class": "GitAPI",
+"language": "NativeScript",
+"path": "res://git_api.gdns"
+} ]
 _global_script_class_icons={
-
+"GitAPI": ""
 }
 
 [application]
 
 config/name="template"
+config/description="Template de Godot Engine 3.2, visita: https://github.com/DeybisMelendez/godot-template"
 config/icon="res://icon.png"
+
+[gdnative]
+
+singletons=[ "res://git_api.gdnlib" ]
 
 [rendering]
 
+quality/driver/driver_name="GLES2"
 environment/default_environment="res://default_env.tres"
