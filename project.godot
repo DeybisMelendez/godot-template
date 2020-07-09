@@ -15,15 +15,14 @@ _global_script_class_icons={
 
 [application]
 
-config/name="template"
-config/description="Template de Godot Engine 3.2, visita: https://github.com/DeybisMelendez/godot-template"
+config/name="Godot-template"
+config/description="Godot Template 3.2.2
+https://github.com/DeybisMelendez/godot-template"
 config/icon="res://icon.png"
-
-[gdnative]
-
-singletons=[  ]
 
 [rendering]
 
 quality/driver/driver_name="GLES2"
+vram_compression/import_etc=true
+vram_compression/import_etc2=false
 environment/default_environment="res://default_env.tres"
