@@ -16,8 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Godot-template"
-config/description="Godot Template 3.2.2
-https://github.com/DeybisMelendez/godot-template"
+config/description="Template from https://github.com/DeybisMelendez/godot-template"
 config/icon="res://icon.png"
 
 [rendering]
