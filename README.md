@@ -10,4 +10,4 @@ Viene con el archivo .gitignore para godot y también he agregado que ignore la 
 
 # Versión actual
 
-3.2.3
+3.4.2
